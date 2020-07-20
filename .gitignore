@@ -12,3 +12,6 @@
 #ignore file with extentions .o, .out
 *.o
 *.out 
+
+# Unignoring all directories
+!Makefile
