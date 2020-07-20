@@ -1,3 +1,14 @@
+# Ignore All
+*
 
-! *.c
-! Makefile
+# Unignoring all with extentions
+!*.*
+
+# Unignoring all directories
+!*/
+
+### Above combination will ignore all files without extention 
+
+#ignore file with extentions .o, .out
+*.o
+*.out 
